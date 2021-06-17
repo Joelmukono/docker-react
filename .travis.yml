@@ -13,7 +13,7 @@ deploy:
   provider: elasticbeanstalk  # service e.g aws digital ocean
   region: "us-east-1"  # area  elastic-beanstalk was created
   app: "docker-react" # name of elastic-beanstalk app
-  env: "Dockerreact-env-1" # env in elastic-beanstalk
+  env: "Dockerreact-env" # env in elastic-beanstalk
   bucket_name: "elasticbeanstalk-us-east-1-500350084356" # the hardrive used to store files
   bucket_path: "docker-react"
   on:
